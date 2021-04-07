@@ -4,3 +4,6 @@ docker build -t Dockerfile .
    46  docker run -it --rm -d -p 80:80 --name dockerfile
    47  docker run -it --rm -d -p 80:80 --name nginx dockerfile
    48  docker ps -a
+
+
+ref url :https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/
