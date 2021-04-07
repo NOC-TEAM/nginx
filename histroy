@@ -1,0 +1,6 @@
+docker build -t Dockerfile .
+   44  docker build -t dockerfile .
+   45  docker images
+   46  docker run -it --rm -d -p 80:80 --name dockerfile
+   47  docker run -it --rm -d -p 80:80 --name nginx dockerfile
+   48  docker ps -a
